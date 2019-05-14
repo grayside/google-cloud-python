@@ -1,0 +1,32 @@
+{
+  "updateTime": "2019-05-14T20:03:29.952159Z",
+  "sources": [
+    {
+      "generator": {
+        "name": "artman",
+        "version": "0.19.0",
+        "dockerImage": "googleapis/artman@sha256:d3df563538225ac6caac45d8ad86499500211d1bcb2536955a6dbda15e1b368e"
+      }
+    },
+    {
+      "git": {
+        "name": "googleapis",
+        "remote": "https://github.com/googleapis/googleapis.git",
+        "sha": "329c297921be14309e100f46c82bfa0cb4a46832",
+        "internalRef": "248194918"
+      }
+    }
+  ],
+  "destinations": [
+    {
+      "client": {
+        "source": "googleapis",
+        "apiName": "vision",
+        "apiVersion": "v1",
+        "language": "python",
+        "generator": "gapic",
+        "config": "google/cloud/vision/artman_vision_v1.yaml"
+      }
+    }
+  ]
+}
